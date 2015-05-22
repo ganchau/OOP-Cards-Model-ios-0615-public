@@ -23,6 +23,10 @@
 		722736771948E278002A8E6A /* BaseballPlayerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 722736731948E278002A8E6A /* BaseballPlayerSpec.m */; };
 		722736781948E278002A8E6A /* CardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 722736741948E278002A8E6A /* CardSpec.m */; };
 		722736791948E278002A8E6A /* PlayingCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 722736751948E278002A8E6A /* PlayingCardSpec.m */; };
+		BD796BF51B0E5ECB000A6368 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BD796BF41B0E5ECB000A6368 /* Card.m */; };
+		BD796BF81B0E5EF1000A6368 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BD796BF71B0E5EF1000A6368 /* PlayingCard.m */; };
+		BD796BFB1B0E5F0E000A6368 /* BaseballCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BD796BFA1B0E5F0E000A6368 /* BaseballCard.m */; };
+		BD796BFE1B0E60CF000A6368 /* BaseballPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD796BFD1B0E60CF000A6368 /* BaseballPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,14 @@
 		722736731948E278002A8E6A /* BaseballPlayerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseballPlayerSpec.m; sourceTree = "<group>"; };
 		722736741948E278002A8E6A /* CardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSpec.m; sourceTree = "<group>"; };
 		722736751948E278002A8E6A /* PlayingCardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardSpec.m; sourceTree = "<group>"; };
+		BD796BF31B0E5ECB000A6368 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		BD796BF41B0E5ECB000A6368 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		BD796BF61B0E5EF1000A6368 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		BD796BF71B0E5EF1000A6368 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		BD796BF91B0E5F0E000A6368 /* BaseballCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseballCard.h; sourceTree = "<group>"; };
+		BD796BFA1B0E5F0E000A6368 /* BaseballCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseballCard.m; sourceTree = "<group>"; };
+		BD796BFC1B0E60CF000A6368 /* BaseballPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseballPlayer.h; sourceTree = "<group>"; };
+		BD796BFD1B0E60CF000A6368 /* BaseballPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseballPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +141,14 @@
 		44CFDE9B189C389300238AA4 /* OOP-Cards-Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD796BFC1B0E60CF000A6368 /* BaseballPlayer.h */,
+				BD796BFD1B0E60CF000A6368 /* BaseballPlayer.m */,
+				BD796BF31B0E5ECB000A6368 /* Card.h */,
+				BD796BF41B0E5ECB000A6368 /* Card.m */,
+				BD796BF61B0E5EF1000A6368 /* PlayingCard.h */,
+				BD796BF71B0E5EF1000A6368 /* PlayingCard.m */,
+				BD796BF91B0E5F0E000A6368 /* BaseballCard.h */,
+				BD796BFA1B0E5F0E000A6368 /* BaseballCard.m */,
 				44CFDEA4189C389300238AA4 /* AppDelegate.h */,
 				44CFDEA5189C389300238AA4 /* AppDelegate.m */,
 				44CFDEA7189C389300238AA4 /* Images.xcassets */,
@@ -299,8 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD796BFB1B0E5F0E000A6368 /* BaseballCard.m in Sources */,
 				44CFDEA6189C389300238AA4 /* AppDelegate.m in Sources */,
+				BD796BFE1B0E60CF000A6368 /* BaseballPlayer.m in Sources */,
 				44CFDEA2189C389300238AA4 /* main.m in Sources */,
+				BD796BF81B0E5EF1000A6368 /* PlayingCard.m in Sources */,
+				BD796BF51B0E5ECB000A6368 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

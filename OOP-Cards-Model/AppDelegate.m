@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "PlayingCard.h"
+#import "BaseballCard.h"
+#import "BaseballPlayer.h"
 
 @implementation AppDelegate
 
@@ -16,6 +19,34 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    PlayingCard *playingCard1 = [[PlayingCard alloc] initWithSuit:@"♠️" rank:@13];
+    PlayingCard *playingCard2 = [[PlayingCard alloc] initWithSuit:@"♥️" rank:@4];
+    PlayingCard *playingCard3 = [[PlayingCard alloc] initWithSuit:@"💩" rank:@99];
+    BaseballPlayer *baseballPlayer1 = [[BaseballPlayer alloc] initWithFirstName:@"Looney"
+                                                                      lastName:@"MahGooney"
+                                                                        weight:@489
+                                                                        number:@99
+                                                                        height:@72];
+    BaseballPlayer *baseballPlayer2 = [[BaseballPlayer alloc] initWithFirstName:@"Antonio"
+                                                                       lastName:@"Gwynn"
+                                                                         weight:@225
+                                                                         number:@35
+                                                                         height:@69];
+    BaseballCard *baseballCard1 = [[BaseballCard alloc] initWithBaseballPlayer:baseballPlayer2
+                                                                      teamName:@"Madres"
+                                                                         brand:@"Lower Deck"
+                                                                    cardNumber:@3983];
+    BaseballCard *baseballCard2 = [[BaseballCard alloc] initWithBaseballPlayer:baseballPlayer1
+                                                                      teamName:@"Hoagies"
+                                                                         brand:@"Totts"
+                                                                    cardNumber:@678];
+    BaseballCard *baseballCard3 = [[BaseballCard alloc] initWithBaseballPlayer:baseballPlayer1
+                                                                      teamName:@"Hoagies"
+                                                                         brand:@"Lower Deck"
+                                                                    cardNumber:@2045];
+    NSLog(@"\n%@\n%@\n%@\n%@\n%@\n%@", playingCard1, playingCard2, playingCard3,
+          baseballCard1, baseballCard2, baseballCard3);
     return YES;
 }
 
