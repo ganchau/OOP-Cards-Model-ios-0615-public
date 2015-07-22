@@ -17,7 +17,7 @@
 
 - (instancetype)init
 {
-    return [self initWithMatched:NO frame:CGRectNull faceUp:NO];
+    return [self initWithMatched:NO frame:CGRectNull faceUp:YES];
 }
 
 // designated initializer
